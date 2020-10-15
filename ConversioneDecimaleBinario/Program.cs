@@ -16,6 +16,10 @@ namespace ConversioneDecimaleBinario
                 num = num / 2;
                 binario = Convert.ToString(resto) + binario;
             }
+            while (num > 0)
+            {
+
+            }
             Console.WriteLine($"Il numero in binario è {binario}");
             Console.ReadLine();
         }
